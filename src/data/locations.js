@@ -38,36 +38,36 @@ import imgHerndonEnd from 'assets/images/herndon-start.jpg';
 
 export const locations = [
   {
-    placename: 'Herndon, VA',
+    placename: 'Cape town, South Africa',
     date: 'August 1, 2015',
-    image: imgHerndonStart,
+    image: ,
     location: {
-      lat: 38.958988,
-      lng: -77.417320
+      lat: -33.918861,
+      lng: 18.423300
     },
     todo: [
       'Where we start! 🚀'
     ]
   },
   {
-    placename: 'Middlesboro, KY',
+    placename: 'Dutch Brazil',
     date: 'August 1, 2015',
-    image: imgKentucky,
+    image: ,
     location: {
-      lat: 36.627517,
-      lng: -83.621635
+      lat: -8.071743,
+      lng: -34.880884
     },
     todo: [
       'Cumberland Gap 🌳'
     ]
   },
   {
-    placename: 'Nashville, TN',
+    placename: 'Stabroek, Georgetown, Guyana',
     date: 'August 2, 2015',
-    image: imgNashville,
+    image: ,
     location: {
-      lat: 36.159708,
-      lng: -86.779786
+      lat: 	6.80779026829,
+      lng: -58.1629685584
     },
     todo: [
       'Robert’s Western World Bar 🤠',
@@ -76,24 +76,24 @@ export const locations = [
     ]
   },
   {
-    placename: 'Lynchburg, TN',
+    placename: 'Curacao, Venezuela',
     date: 'August 3, 2015',
-    image: imgJackDaniels,
+    image: ,
     location: {
-      lat: 35.284334,
-      lng: -86.366818
+      lat: 10.3833,
+      lng: -71.3333
     },
     todo: [
       'Jack Daneils Distillery 🥃'
     ]
   },
   {
-    placename: 'Huntsville, AL',
+    placename: 'Maurutius, South Africa',
     date: 'August 4, 2015',
-    image: imgHuntsville,
+    image: ,
     location: {
-      lat: 34.711291,
-      lng: -86.653529
+      lat: -20.348404,
+      lng: 57.552152
     },
     todo: [
       'Sleep 😴',
@@ -101,23 +101,24 @@ export const locations = [
     ]
   },
   {
-    placename: 'Atlanta, GA',
+    placename: 'Batavia, New York',
     date: 'August 4, 2015',
+    image: ,
     location: {
-      lat: 33.746511,
-      lng: -84.397267
+      lat: 42.998116,
+      lng: -78.187515
     },
     todo: [
       'Flight ✈️'
     ]
   },
   {
-    placename: 'Las Vegas, NV',
+    placename: 'Malacca, Malaysia',
     date: 'August 5, 2015',
-    image: imgLasVegas,
+    image: ,
     location: {
-      lat: 36.171493,
-      lng: -115.138616
+      lat: 2.200844,
+      lng: 102.240143
     },
     todo: [
       'Casinos ♠♥♦♣',
@@ -126,12 +127,12 @@ export const locations = [
     ]
   },
   {
-    placename: 'Atlanta, GA',
+    placename: 'Macau, China',
     date: 'August 7, 2015',
-    image: imgAtlanta,
+    image: ,
     location: {
-      lat: 33.746511,
-      lng: -84.397267
+      lat: 22.210928,
+      lng: 113.552971
     },
     todo: [
       'Friends 🍻',
@@ -139,12 +140,12 @@ export const locations = [
     ]
   },
   {
-    placename: 'Columbia, SC',
+    placename: 'Nagasaki, Japan',
     date: 'August 8, 2015',
-    image: imgColumbia,
+    image: ,
     location: {
-      lat: 33.999298,
-      lng: -81.029584
+      lat: 32.764233,
+      lng: 129.872696
     },
     todo: [
       'Friends 🍻',
@@ -153,27 +154,63 @@ export const locations = [
     ]
   },
   {
-    placename: 'Hamer, SC',
+    placename: 'Manila, Philippines',
     date: 'August 9, 2015',
-    image: imgSoutchOfTheBorder,
+    image: ,
     location: {
-      lat: 34.498276,
-      lng: -79.309351
+      lat: 14.599512,
+      lng: 120.984222
     },
     todo: [
       'South of the Border 🧨'
     ]
   },
   {
-    placename: 'Herndon, VA',
+    placename: 'Chinsurah, India',
     date: 'August 10, 2015',
-    image: imgHerndonEnd,
+    image: ,
     location: {
-      lat: 38.958988,
-      lng: -77.417320
+      lat: 22.891891,
+      lng: 88.3967446
     },
     todo: [
       'Where we end! 📍'
     ]
-  }
+  },
+  {
+    placename: 'Amsterdam, Netherlands',
+    date: 'August 9, 2015',
+    image: ,
+    location: {
+      lat: 52.377956,
+      lng: 4.897070
+    },
+    todo: [
+      'South of the Border 🧨'
+    ]
+  },
+  {
+    placename: 'Scandinavian Peninsula, Norway',
+    date: 'August 9, 2015',
+    image: ,
+    location: {
+      lat: 61.862476,
+      lng: 9.681024
+    },
+    todo: [
+      'South of the Border 🧨'
+    ]
+  },
+  {
+    placename: 'Baltic, Finland',
+    date: 'August 9, 2015',
+    image: ,
+    location: {
+      lat: 43.7613629,
+      lng: -96.7403289
+    },
+    todo: [
+      'South of the Border 🧨'
+    ]
+  },
 ];
