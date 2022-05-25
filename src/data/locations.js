@@ -54,8 +54,8 @@ export const locations = [
     date: 'August 9, 2015',
     // image: ,
     location: {
-      lat: 43.7613629,
-      lng: -96.7403289
+      lat: 58.48795200000001,
+      lng: 19.86328100000003
     },
     todo: [
       'South of the Border 🧨'
@@ -167,8 +167,8 @@ export const locations = [
     date: 'August 4, 2015',
     // image: ,
     location: {
-      lat: 42.998116,
-      lng: -78.187515
+      lat: 41.850028,
+      lng: -88.312574
     },
     todo: [
       'Flight ✈️'
@@ -212,5 +212,5 @@ export const locations = [
       'Grill 🍖',
       'Pool 🏊‍♂️'
     ]
-  },
+  }
 ];
