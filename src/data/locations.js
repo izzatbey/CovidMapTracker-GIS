@@ -167,8 +167,8 @@ export const locations = [
     date: 'August 4, 2015',
     // image: ,
     location: {
-      lat: 41.850028,
-      lng: -88.312574
+      lat: -6.17511,
+      lng: 106.86504
     },
     todo: [
       'Flight ✈️'
