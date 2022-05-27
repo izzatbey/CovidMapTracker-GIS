@@ -9,12 +9,38 @@ import Map from "components/Map";
 
 import { locations } from "data/locations";
 
+let data = [];
+let merged = [];
+let aggregate = [];
+
 const LOCATION = {
   lat: 0,
   lng: 0,
 };
 const CENTER = [LOCATION.lat, LOCATION.lng];
 const DEFAULT_ZOOM = 1;
+
+const fetchData = async () => {
+  for (let i = 0; i < 1; i++) {
+    try {
+      const response = await axios.get(
+        `https://kipi.covid19.go.id/api/get-faskes-vaksinasi?skip=${i}`
+      );
+
+      data.push(response.data.data);
+    } catch (e) {
+      console.log(`Failed to fetch API: ${e.message}`, e);
+      return;
+    }
+  }
+  merged = data.flat(1);
+  console.log(merged[5]);
+
+  aggregate = merged.filter(function (data) {
+    return data.jenis_faskes == "RUMAH SAKIT";
+  });
+  console.log(aggregate);
+};
 
 const IndexPage = () => {
   /**
