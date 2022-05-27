@@ -1,216 +1,157 @@
-// import imgHerndonStart from 'assets/images/herdon-start.jpg'
-
-// export const locations = [
-//     {
-//         placename: 'Herdon, VA',
-//         date: 'August 1, 2015',
-//         location: {
-//             lat: 38.958988,
-//             lng: -77.417320
-//         },
-//         todo:[
-//             'Where we start !?'
-//         ]
-//     },
-//     {
-//         placename: 'Middlesboro, KY',
-//         date: 'August 1, 2015',
-//         location: {
-//             lat: 36.627517,
-//             lng: -83.621635
-//         },
-//         todo: [
-//             'Cumberland Gap?'
-//         ]
-//     }
-// ]
-   
-import imgHerndonStart from 'assets/images/herndon-start.jpg';
-import imgKentucky from 'assets/images/kentucky.jpg';
-import imgNashville from 'assets/images/nashville.jpg';
-import imgJackDaniels from 'assets/images/jack-daniels.jpg';
-import imgHuntsville from 'assets/images/huntsville.jpg';
-import imgLasVegas from 'assets/images/las-vegas.jpg';
-import imgAtlanta from 'assets/images/atlanta.jpg';
-import imgColumbia from 'assets/images/columbia.jpg';
-import imgSoutchOfTheBorder from 'assets/images/south-of-the-border.jpg';
-import imgHerndonEnd from 'assets/images/herndon-start.jpg';
-
 export const locations = [
   {
-    placename: 'Scandinavian Peninsula, Norway',
-    date: 'August 9, 2015',
-    // image: ,
-    location: {
-      lat: 61.862476,
-      lng: 9.681024
-    },
-    todo: [
-      'South of the Border 🧨'
-    ]
+    alamat: "Lampeudeu Baroh, Pidie, Kabupaten Pidie, Aceh 24112, Indonesia",
+    detail: [
+      {
+        batal_vaksin: 0,
+        batal_vaksin_1: 0,
+        batal_vaksin_2: 0,
+        batch: "LANSIA",
+        divaksin: 2,
+        divaksin_1: 2,
+        divaksin_2: 0,
+        id: 66,
+        kode: "0009R004",
+        pending_vaksin: 0,
+        pending_vaksin_1: 0,
+        pending_vaksin_2: 0,
+        tanggal: "2021-07-07",
+      },
+      {
+        batal_vaksin: 1,
+        batal_vaksin_1: 1,
+        batal_vaksin_2: 0,
+        batch: "TAHAP 3",
+        divaksin: 0,
+        divaksin_1: 0,
+        divaksin_2: 0,
+        id: 322,
+        kode: "0009R004",
+        pending_vaksin: 0,
+        pending_vaksin_1: 0,
+        pending_vaksin_2: 0,
+        tanggal: "2021-07-07",
+      },
+      {
+        batal_vaksin: 0,
+        batal_vaksin_1: 0,
+        batal_vaksin_2: 0,
+        batch: "PETUGAS PUBLIK",
+        divaksin: 44,
+        divaksin_1: 25,
+        divaksin_2: 19,
+        id: 1082,
+        kode: "0009R004",
+        pending_vaksin: 0,
+        pending_vaksin_1: 0,
+        pending_vaksin_2: 0,
+        tanggal: "2021-07-07",
+      },
+      {
+        batal_vaksin: 21,
+        batal_vaksin_1: 21,
+        batal_vaksin_2: 0,
+        batch: "SDM KESEHATAN",
+        divaksin: 470,
+        divaksin_1: 236,
+        divaksin_2: 234,
+        id: 1486,
+        kode: "0009R004",
+        pending_vaksin: 6,
+        pending_vaksin_1: 6,
+        pending_vaksin_2: 0,
+        tanggal: "2021-07-07",
+      },
+    ],
+    id: 12,
+    jenis_faskes: "RUMAH SAKIT",
+    kelas_rs: "D",
+    kode: "0009R004",
+    kota: "KAB. PIDIE",
+    latitude: "5.3725875",
+    longitude: "95.9586145",
+    nama: "RS CITRA HUSADA",
+    provinsi: "ACEH",
+    source_data: "Control Tower KPCPEN",
+    status: "Siap Vaksinasi",
+    telp: "0653-7829679",
   },
   {
-    placename: 'Baltic, Finland',
-    date: 'August 9, 2015',
-    // image: ,
-    location: {
-      lat: 58.48795200000001,
-      lng: 19.86328100000003
-    },
-    todo: [
-      'South of the Border 🧨'
-    ]
+    alamat:
+      "Jl. Pocut Baran, Suwak Indrapuri, Johan Pahlawan, Kabupaten Aceh Barat, Aceh 23681, Indonesia",
+    detail: [
+      {
+        batal_vaksin: 2,
+        batal_vaksin_1: 2,
+        batal_vaksin_2: 0,
+        batch: "SDM KESEHATAN",
+        divaksin: 135,
+        divaksin_1: 74,
+        divaksin_2: 61,
+        id: 302,
+        kode: "0007R005",
+        pending_vaksin: 0,
+        pending_vaksin_1: 0,
+        pending_vaksin_2: 0,
+        tanggal: "2021-07-07",
+      },
+      {
+        batal_vaksin: 0,
+        batal_vaksin_1: 0,
+        batal_vaksin_2: 0,
+        batch: "TAHAP 3",
+        divaksin: 439,
+        divaksin_1: 373,
+        divaksin_2: 66,
+        id: 526,
+        kode: "0007R005",
+        pending_vaksin: 0,
+        pending_vaksin_1: 0,
+        pending_vaksin_2: 0,
+        tanggal: "2021-07-07",
+      },
+      {
+        batal_vaksin: 1,
+        batal_vaksin_1: 1,
+        batal_vaksin_2: 0,
+        batch: "LANSIA",
+        divaksin: 18,
+        divaksin_1: 9,
+        divaksin_2: 9,
+        id: 561,
+        kode: "0007R005",
+        pending_vaksin: 0,
+        pending_vaksin_1: 0,
+        pending_vaksin_2: 0,
+        tanggal: "2021-07-07",
+      },
+      {
+        batal_vaksin: 11,
+        batal_vaksin_1: 9,
+        batal_vaksin_2: 2,
+        batch: "PETUGAS PUBLIK",
+        divaksin: 3512,
+        divaksin_1: 2155,
+        divaksin_2: 1357,
+        id: 1696,
+        kode: "0007R005",
+        pending_vaksin: 6,
+        pending_vaksin_1: 6,
+        pending_vaksin_2: 0,
+        tanggal: "2021-07-07",
+      },
+    ],
+    id: 21,
+    jenis_faskes: "RUMAH SAKIT",
+    kelas_rs: "D",
+    kode: "0007R005",
+    kota: "KAB. ACEH BARAT",
+    latitude: "4.1316707",
+    longitude: "96.1324378",
+    nama: "RUMKIT TK IV IM 07.02 MEULABOH",
+    provinsi: "ACEH",
+    source_data: "Control Tower KPCPEN",
+    status: "Siap Vaksinasi",
+    telp: "0821-71848478",
   },
-  {
-    placename: 'Amsterdam, Netherlands',
-    date: 'August 9, 2015',
-    // image: ,
-    location: {
-      lat: 52.377956,
-      lng: 4.897070
-    },
-    todo: [
-      'South of the Border 🧨'
-    ]
-  },
-  {
-    placename: 'Curacao, Venezuela',
-    date: 'August 3, 2015',
-    // image: ,
-    location: {
-      lat: 10.3833,
-      lng: -71.3333
-    },
-    todo: [
-      'Jack Daneils Distillery 🥃'
-    ]
-  },
-  {
-    placename: 'Stabroek, Georgetown, Guyana',
-    date: 'August 2, 2015',
-    // image: ,
-    location: {
-      lat: 	6.80779026829,
-      lng: -58.1629685584
-    },
-    todo: [
-      'Robert’s Western World Bar 🤠',
-      'Broadway Street 🎻',
-      'John Seigenthaler Pedestrian Bridge 🌉'
-    ]
-  },
-  {
-    placename: 'Dutch Brazil',
-    date: 'August 1, 2015',
-    // image: ,
-    location: {
-      lat: -8.071743,
-      lng: -34.880884
-    },
-    todo: [
-      'Cumberland Gap 🌳'
-    ]
-  },
-  {
-    placename: 'Cape town, South Africa',
-    date: 'August 1, 2015',
-    // image: ,
-    location: {
-      lat: -33.918861,
-      lng: 18.423300
-    },
-    todo: [
-      'Where we start! 🚀'
-    ]
-  },
-  {
-    placename: 'Maurutius, South Africa',
-    date: 'August 4, 2015',
-    // image: ,
-    location: {
-      lat: -20.348404,
-      lng: 57.552152
-    },
-    todo: [
-      'Sleep 😴',
-      'US Space and Rocket Center 👨‍🚀'
-    ]
-  },
-  {
-    placename: 'Chinsurah, India',
-    date: 'August 10, 2015',
-    // image: ,
-    location: {
-      lat: 22.891891,
-      lng: 88.3967446
-    },
-    todo: [
-      'Where we end! 📍'
-    ]
-  },
-  {
-    placename: 'Malacca, Malaysia',
-    date: 'August 5, 2015',
-    // image: ,
-    location: {
-      lat: 2.200844,
-      lng: 102.240143
-    },
-    todo: [
-      'Casinos ♠♥♦♣',
-      'Walk the strip 💃',
-      'Fountain show ⛲'
-    ]
-  },
-  {
-    placename: 'Batavia, New York',
-    date: 'August 4, 2015',
-    // image: ,
-    location: {
-      lat: -6.17511,
-      lng: 106.86504
-    },
-    todo: [
-      'Flight ✈️'
-    ]
-  },
-  {
-    placename: 'Macau, China',
-    date: 'August 7, 2015',
-    // image: ,
-    location: {
-      lat: 22.210928,
-      lng: 113.552971
-    },
-    todo: [
-      'Friends 🍻',
-      'Georgia Aquarium 🐠'
-    ]
-  },
-  {
-    placename: 'Manila, Philippines',
-    date: 'August 9, 2015',
-    // image: ,
-    location: {
-      lat: 14.599512,
-      lng: 120.984222
-    },
-    todo: [
-      'South of the Border 🧨'
-    ]
-  },
-  {
-    placename: 'Nagasaki, Japan',
-    date: 'August 8, 2015',
-    // image: ,
-    location: {
-      lat: 32.764233,
-      lng: 129.872696
-    },
-    todo: [
-      'Friends 🍻',
-      'Grill 🍖',
-      'Pool 🏊‍♂️'
-    ]
-  }
 ];
