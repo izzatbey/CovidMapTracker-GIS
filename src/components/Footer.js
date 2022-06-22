@@ -8,14 +8,15 @@ const Footer = () => {
   const { authorName, authorUrl } = useSiteMetadata();
 
   return (
-    <footer>
-      <Container>
-        <p>
-          &copy; {new Date().getFullYear()},{" "}
-          <a href={authorUrl}>{authorName}</a>
-        </p>
-      </Container>
-    </footer>
+    <div></div>
+    // <footer>
+    //   <Container>
+    //     <p>
+    //       &copy; {new Date().getFullYear()},{" "}
+    //       <a href={authorUrl}>{authorName}</a>
+    //     </p>
+    //   </Container>
+    // </footer>
   );
 };
 
