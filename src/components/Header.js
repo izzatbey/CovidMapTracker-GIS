@@ -13,17 +13,18 @@ const Header = () => {
     <header>
       <Container type="content">
         <p>
-          <Link to="/">{companyName}</Link>
+          <Link to="/">Vaksinasi Indonesia GIS</Link>
         </p>
         <ul>
           <li>
-            <Link to="/about/">About</Link>
+            <Link to="/chloropleth-hospital/">
+              Chloropleth Faskes Vaksinasi
+            </Link>
           </li>
           <li>
-            <a href={companyUrl}>
-              <span className="visually-hidden">Github</span>
-              <FaGithub />
-            </a>
+            <Link to="/chloropleth-vaccinated/">
+              Chloropleth Jumlah Vaksinasi
+            </Link>
           </li>
         </ul>
       </Container>
